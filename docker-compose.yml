@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  node:
+    container_name: test_varun_node
+    ports:
+      - "4044:4000"
+    build: ./test/
